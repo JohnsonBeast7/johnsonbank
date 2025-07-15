@@ -171,10 +171,28 @@
     <section class="digital-section">
         <div class="digital-content">
             <div class="digital-left">
-
+                <div class="digital-left-title">
+                    <h1>Aproveite</h1>
+                    <h2>Domine o seu dinheiro com uma conta 100% digital</h2>
+                </div>
+                <div class="digital-content-1">
+                    <img src="imgs/digital-icon1.svg">
+                    <h3>Cartão visa internacional</h3>
+                    <p>Tenha facilidades e benefícios para o seu dia a dia.</p> 
+                </div>
+                <div class="digital-content-2">
+                    <img src="imgs/digital-icon2.svg">
+                    <h3>Zero mensalidade e anuidade</h3>
+                    <p>Não gaste grana pagando taxas desnecessárias.</p>        
+                </div>
+                <div class="digital-content-3">
+                    <img src="imgs/digital-icon3.svg">
+                    <h3>Cartão visa internacional</h3>
+                    <p>Invista o seu dinheiro de maneira mais rentável.</p>
+                </div>
             </div>
             <div class="digital-right">
-                
+                <img src="imgs/digital-phone.png">
             </div>
         </div>   
     </section>
