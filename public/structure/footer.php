@@ -70,7 +70,7 @@
         <div class="footer-bottom">
             <div class="footer-bottom-content">
                 <img src="imgs/footer-emoji.png">
-                <p>Oi! Leu até aqui? Você se preocupa com os mínimos detalhes, mesmo. A gente também. Por isso o time Bankboost está sempre trabalhando para fazer a conta digital perfeita para você ; )</p>    
+                <p>Oi! Leu até aqui? Você se preocupa com os mínimos detalhes, mesmo. A gente também. Por isso o time Johnsonbank está sempre trabalhando para fazer a conta digital perfeita para você ; )</p>    
             </div>
              
         </div>

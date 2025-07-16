@@ -21,7 +21,7 @@
                 <a class="menu" href="#">Ajuda</a>
             </div>
             <div class="menu-btn">
-                <a class="btn-menu" href="#">Abra sua conta digital</a>
+                <a class="btn-menu" href="#"><span>Abra sua conta digital</span></a>
             </div>
         </div>
         <div class="main-content">
