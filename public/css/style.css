@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -38,10 +45,10 @@ html {
 
 .header img {
     margin-left: 130px;
-  width: 100%;
-  max-width: 35px;
-  margin-top: 5px;
-  margin-right: 5px;
+    width: 100%;
+    max-width: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
 
 }
 
@@ -649,6 +656,7 @@ html {
 .digital-section {
     background-color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .digital-section .digital-content {
@@ -656,3 +664,268 @@ html {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 110px;
 }
+
+.digital-section .digital-content .digital-info-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.digital-section .digital-content .digital-info-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.digital-section .digital-content .digital-info-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top:60px;
+}
+
+.digital-section .digital-content h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #393B42;
+
+}
+
+.digital-section .digital-content p{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    color: #787C87;
+
+}
+
+.digital-section .digital-content .digital-btn {
+    margin-top: 65px;
+}
+
+.digital-section .digital-content .digital-btn a {
+    color: #80440D;
+    height: 100%;
+    max-height: 50px;
+    background-color: #E9C300;
+    border-radius: 50px;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration: none;
+}
+
+.digital-section .digital-content .digital-btn a:hover {
+    background-color: #fad000f6;
+}
+
+.digital-section .digital-content .digital-left-title h1 {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 600;
+    color: #ABAFBA;
+}
+
+.digital-section .digital-content .digital-left-title h2 {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 600;
+    color: #393B42;
+    line-height: 40px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.digital-section .digital-content img {
+    margin-right: 25px;
+}
+
+.digital-section .digital-content .digital-right img {
+    width: 100%;
+    max-width: 580px;
+}
+
+footer {
+    background-color: #05656C;
+}
+
+footer .footer-content .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+}
+
+footer .footer-content .footer-top .footer-title {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-content .footer-top .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 105px;
+    margin-top: 45px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #DFE1E8;
+    
+}
+
+footer .footer-content .footer-top .footer-links p {
+    white-space: nowrap;
+}
+
+
+
+
+footer .footer-content .footer-top .footer-title h3 {
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+footer .footer-content .footer-top .footer-title img {
+    margin-left: 110px;
+    width: 100%;
+    max-width: 30px;
+    margin-top: 28px;
+    margin-right: 5px;
+}
+
+footer .footer-content .footer-top .footer-title span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+footer .footer-content .footer-main span {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.160);
+    margin-bottom: 40px;
+    width: 650%;
+}
+footer .footer-content .footer-main {
+    margin-left: 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+footer .footer-content .footer-main .footer-main-links {
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+footer .footer-content .footer-main .footer-main-links h1 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+}
+
+footer .footer-content .footer-main .footer-main-links a {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #DFE1E8;
+    text-decoration: none;
+
+}
+
+footer .footer-content .footer-main .footer-main-infos {
+    grid-column: 6/8;
+}
+
+footer .footer-content .footer-main .footer-main-links .links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .footer-content .footer-main .footer-main-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer .footer-content .footer-main .footer-main-infos h1 {
+    font-family: "Inter";
+    font-size: 14px;
+    color: white;
+}
+
+footer .footer-content .footer-main .footer-main-infos p {
+    font-family: "Inter";
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+
+footer .footer-content .footer-main .footer-main-infos .footer-atendimento {
+    display: flex;
+    flex-direction: row;
+    background-color: #067179;
+    width: fit-content;
+    gap: 15px;
+    padding: 25px 20px 25px 20px;
+    border-radius: 5px;
+    
+}
+
+footer .footer-content .footer-main .footer-main-infos img {
+    width: 100%;
+    max-width: 20px;
+}
+
+footer .footer-content .footer-main .footer-main-infos .footer-imprensa {
+    display: flex;
+    flex-direction: row;
+    background-color: #067179;
+    width: fit-content;
+    gap: 15px;
+    padding: 25px 55px 25px 20px;
+    border-radius: 5px;
+}
+
+footer .footer-bottom {
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 106px;
+    border-top: 1px solid rgba(255, 255, 255, 0.160);
+    border-bottom: 4px solid #FFC800;
+}
+
+footer .footer-bottom .footer-bottom-content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .footer-bottom img {
+    max-width: 18px;
+    max-height: 19px;
+}
+
+footer .footer-bottom p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 680px;
+
+}
+
+

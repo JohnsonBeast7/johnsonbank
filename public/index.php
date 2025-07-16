@@ -125,44 +125,46 @@
     </section>
 
     <section class="x-section">
-        <div class="x-title">
-            <div class="x-title-left">
-                <h1>Prático, fácil, moderno</h1>
-                <div class="x-title-emoji">
-                    <h1>Você resolve tudo sem estresse</h1>
-                    <img src="imgs/x-emoji.png">
+        <div class="x-content">
+            <div class="x-title">
+                <div class="x-title-left">
+                    <h1>Prático, fácil, moderno</h1>
+                    <div class="x-title-emoji">
+                        <h1>Você resolve tudo sem estresse</h1>
+                        <img src="imgs/x-emoji.png">
+                    </div>
+                </div>
+                <div class="x-title-right">
+                    <img src="imgs/x-dots.svg">
                 </div>
             </div>
-            <div class="x-title-right">
-                <img src="imgs/x-dots.svg">
-            </div>
-        </div>
-        <div class="x-posts">
-            <div class="x-post-1">
-                <div class="x-post-text-1">
-                    <div class="x-post-top">
-                        <h3>@marcio</h3>
-                        <img src="imgs/x-icon.svg">
+            <div class="x-posts">
+                <div class="x-post-1">
+                    <div class="x-post-text-1">
+                        <div class="x-post-top">
+                            <h3>@marcio</h3>
+                            <img src="imgs/x-icon.svg">
+                        </div>
+                        <p>Valeu @johnsonbank! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #johnsonBank</p>
                     </div>
-                    <p>Valeu @johnsonbank! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #johnsonBank</p>
                 </div>
-            </div>
-            <div class="x-post-2">
-                <div class="x-post-text-2">
-                    <div class="x-post-top">
-                        <h3>@westzs</h3>
-                        <img src="imgs/x-icon.svg">
+                <div class="x-post-2">
+                    <div class="x-post-text-2">
+                        <div class="x-post-top">
+                            <h3>@westzs</h3>
+                            <img src="imgs/x-icon.svg">
+                        </div>
+                        <p>Eu uso o Johnson pra render o pouquinho que eu tenho. Como disse meu amigo Pastel, um dia eu abro o app de novo e PA: tô rica.</p>
                     </div>
-                    <p>Eu uso o Johnson pra render o pouquinho que eu tenho. Como disse meu amigo Pastel, um dia eu abro o app de novo e PA: tô rica.</p>
                 </div>
-            </div>
-            <div class="x-post-3">
-                <div class="x-post-text-3">
-                    <div class="x-post-top">
-                        <h3>@viper</h3>
-                        <img src="imgs/x-icon.svg">
+                <div class="x-post-3">
+                    <div class="x-post-text-3">
+                        <div class="x-post-top">
+                            <h3>@viper</h3>
+                            <img src="imgs/x-icon.svg">
+                        </div>
+                        <p> Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurança pro cliente.</p>  
                     </div>
-                    <p> Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurança pro cliente.</p>  
                 </div>
             </div>
         </div>
@@ -175,20 +177,29 @@
                     <h1>Aproveite</h1>
                     <h2>Domine o seu dinheiro com uma conta 100% digital</h2>
                 </div>
-                <div class="digital-content-1">
+                <div class="digital-info-1">
                     <img src="imgs/digital-icon1.svg">
-                    <h3>Cartão visa internacional</h3>
-                    <p>Tenha facilidades e benefícios para o seu dia a dia.</p> 
+                        <div class="digital-text-1">
+                            <h3>Cartão visa internacional</h3>
+                            <p>Tenha facilidades e benefícios para o seu dia a dia.</p> 
+                        </div>
                 </div>
-                <div class="digital-content-2">
+                <div class="digital-info-2">
                     <img src="imgs/digital-icon2.svg">
-                    <h3>Zero mensalidade e anuidade</h3>
-                    <p>Não gaste grana pagando taxas desnecessárias.</p>        
+                        <div class="digital-text-2">
+                            <h3>Zero mensalidade e anuidade</h3>
+                            <p>Não gaste grana pagando taxas desnecessárias.</p>
+                        </div>        
                 </div>
-                <div class="digital-content-3">
+                <div class="digital-info-3">
                     <img src="imgs/digital-icon3.svg">
-                    <h3>Cartão visa internacional</h3>
-                    <p>Invista o seu dinheiro de maneira mais rentável.</p>
+                        <div class="digital-text-3">
+                            <h3>Investimento que rende mais que a poupança</h3>
+                            <p>Invista o seu dinheiro de maneira mais rentável.</p>
+                        </div>
+                </div>
+                <div class="digital-btn">
+                    <a href="#">Abra sua conta digital</a>
                 </div>
             </div>
             <div class="digital-right">
@@ -196,6 +207,8 @@
             </div>
         </div>   
     </section>
+
+    <?php include("structure/footer.php"); ?>
  
 
 </body>
