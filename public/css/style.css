@@ -831,15 +831,20 @@ footer .footer-content .footer-main span {
     width: 650%;
 }
 footer .footer-content .footer-main {
+    border-top: 1px solid rgba(255, 255, 255, 0.160);
     margin-left: 110px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    margin-right: 106px;
+    margin-right: 106px;
+    padding-top: 40px;
 }
 
 footer .footer-content .footer-main .footer-main-links {
     grid-column: 1/6;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 75px;
 }
 
 footer .footer-content .footer-main .footer-main-links h1 {
@@ -873,6 +878,7 @@ footer .footer-content .footer-main .footer-main-infos {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    justify-self: end;
 }
 
 footer .footer-content .footer-main .footer-main-infos h1 {
@@ -944,5 +950,4 @@ footer .footer-bottom p {
     max-width: 680px;
 
 }
-
 

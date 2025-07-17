@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="footer-main">
-            <span></span>
+            
             <div class="footer-main-links">
                 <div class="links">
                     <h1>Produtos Boost</h1>
