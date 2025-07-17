@@ -154,6 +154,9 @@ html {
 .main-section .main-right img {
     width: 100%;
     max-width: 620px;
+    position: relative; 
+    transition: transform 0.1s ease-out; 
+    transform-origin: center center; 
 
 }
 
@@ -920,7 +923,6 @@ footer .container .footer-main .footer-main-infos .footer-atendimento {
 }
 
 footer .container .footer-main .footer-main-infos img {
-    width: 100%;
     max-width: 20px;
 }
 

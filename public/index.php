@@ -14,7 +14,7 @@
             <img class="header-logo" src="imgs/Vector.svg">
             <h3 class="logo-menu">Johnson<span>bank</span></h3>
             <div class="menu-links">
-                <a class="menu" href="#">Produtos Boost</a>
+                <a class="menu" href="#">Produtos Johnson</a>
                 <a class="menu" href="#">Conta digital PJ</a>
                 <a class="menu" href="#">Quem somos</a>
                 <a class="menu" href="#">Blog</a>
@@ -48,7 +48,7 @@
             </div>
             <div class="main-right">
                 <h2 class="main-right-title">Banco 100% digital</h2>
-                <img src="imgs/img-cards-2.png" alt="conta digital">
+                <img class="movable-image" src="imgs/Group 90.png" alt="conta digital">
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@
             <div class="app-secondary-right">
                 <div class="app-purple-block">
                     <div class="purple-block-left">
-                        <h1>Boost Pejota</h1>
+                        <h1>Bank Pejota</h1>
                         <h2>Contas digitais PJ gratuitas para decolar seu negócio!</h2>
                         <p>As melhores contas para fazer pagamentos, compras e receber dos seus clientes.
                         <div class="purple-block-btns">

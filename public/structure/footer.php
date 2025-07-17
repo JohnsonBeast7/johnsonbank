@@ -18,10 +18,10 @@
             
             <div class="footer-main-links">
                 <div class="links">
-                    <h1>Produtos Boost</h1>
+                    <h1>Produtos Johnson</h1>
                     <a href="#">Cartão de crédito</a>
                     <a href="#">Cartão pré-pago</a>
-                    <a href="#">Boost Mais</a>
+                    <a href="#">Johnson Mais</a>
                     <a href="#">Investimentos</a>
                     <a href="#">Empréstimo</a>
                 </div>
@@ -76,6 +76,33 @@
         </div>
     </div>
 </footer>
+
+<script>
+    const movableImage = document.querySelector('.movable-image');
+
+if (movableImage) { 
+    movableImage.addEventListener('mousemove', (e) => {
+        const imageWidth = movableImage.offsetWidth;
+        const imageHeight = movableImage.offsetHeight;
+        
+        const mouseX = e.clientX - movableImage.getBoundingClientRect().left;
+        const mouseY = e.clientY - movableImage.getBoundingClientRect().top;
+
+        const moveX = (mouseX - imageWidth / 2) / (imageWidth / 2);
+        const moveY = (mouseY - imageHeight / 2) / (imageHeight / 2);
+
+        const translateX = moveX * 6; 
+        const translateY = moveY * 6;
+
+        movableImage.style.transform = `translate(${translateX}px, ${translateY}px)`;
+    });
+
+    
+    movableImage.addEventListener('mouseleave', () => {
+        movableImage.style.transform = 'translate(0, 0)';
+    });
+}
+</script>
 
 <!-- <footer>
     <div class="container">
