@@ -54,9 +54,9 @@
     </section>
 
     <section class="app-section">          
-        <div class="app-content">
+        <div class="container">
             <div class="app-left">
-                <img src="imgs/mockup-iphone-01.png">
+                <img src="imgs/mockup-iphone-01-test.png">
             </div>
             <div class="app-right">
                 <h1 class="app-title">Resolva sua vida direto pelo app johnson!</h1>
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-secondary-content">
+        <div class="app-secondary-content container">
             <div class="app-secondary-left">
                 <img class="dots" src="imgs/app-dots.svg">
                 <img class="logo-frame" src="imgs/logo-frame.svg">
@@ -125,7 +125,7 @@
     </section>
 
     <section class="x-section">
-        <div class="x-content">
+        <div class="container">
             <div class="x-title">
                 <div class="x-title-left">
                     <h1>Prático, fácil, moderno</h1>
@@ -140,38 +140,32 @@
             </div>
             <div class="x-posts">
                 <div class="x-post-1">
-                    <div class="x-post-text-1">
                         <div class="x-post-top">
                             <h3>@marcio</h3>
                             <img src="imgs/x-icon.svg">
                         </div>
                         <p>Valeu @johnsonbank! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #johnsonBank</p>
-                    </div>
                 </div>
                 <div class="x-post-2">
-                    <div class="x-post-text-2">
                         <div class="x-post-top">
                             <h3>@westzs</h3>
                             <img src="imgs/x-icon.svg">
                         </div>
                         <p>Eu uso o Johnson pra render o pouquinho que eu tenho. Como disse meu amigo Pastel, um dia eu abro o app de novo e PA: tô rica.</p>
-                    </div>
                 </div>
                 <div class="x-post-3">
-                    <div class="x-post-text-3">
                         <div class="x-post-top">
                             <h3>@viper</h3>
                             <img src="imgs/x-icon.svg">
                         </div>
                         <p> Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurança pro cliente.</p>  
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="digital-section">
-        <div class="digital-content">
+        <div class="container">
             <div class="digital-left">
                 <div class="digital-left-title">
                     <h1>Aproveite</h1>

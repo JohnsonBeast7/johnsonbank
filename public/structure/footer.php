@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-content">
+    <div class="container">
         <div class="footer-top">
             <div class="footer-title">
                 <img src="imgs/Vector.svg">
