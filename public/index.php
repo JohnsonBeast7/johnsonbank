@@ -11,17 +11,21 @@
 <body>
     <section class="main-section">
         <div class="header">
-            <img class="header-logo" src="imgs/Vector.svg">
-            <h3 class="logo-menu">Johnson<span>bank</span></h3>
-            <div class="menu-links">
-                <a class="menu" href="#">Produtos Johnson</a>
-                <a class="menu" href="#">Conta digital PJ</a>
-                <a class="menu" href="#">Quem somos</a>
-                <a class="menu" href="#">Blog</a>
-                <a class="menu" href="#">Ajuda</a>
-            </div>
-            <div class="menu-btn">
-                <a class="btn-menu" href="#"><span>Abra sua conta digital</span></a>
+            <div class="header-content">
+                <div class="logo-text">
+                    <img class="header-logo" src="imgs/Vector.svg">
+                    <h3 class="logo-menu">Johnson<span>bank</span></h3>
+                </div>
+                <div class="menu-links">
+                    <a class="menu" href="#">Produtos Johnson</a>
+                    <a class="menu" href="#">Conta digital PJ</a>
+                    <a class="menu" href="#">Quem somos</a>
+                    <a class="menu" href="#">Blog</a>
+                    <a class="menu" href="#">Ajuda</a>
+                </div>
+                <div class="menu-btn">
+                    <a class="btn-menu" href="#"><span>Abra sua conta digital</span></a>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -54,7 +58,7 @@
     </section>
 
     <section class="app-section">          
-        <div class="container">
+        <div class="app-primary-content container">
             <div class="app-left">
                 <img src="imgs/mockup-iphone-01-test.png">
             </div>
@@ -66,7 +70,6 @@
                         <div class="app-text-info1">
                             <h3>Cartão de crédito sem anuidade</h3>
                             <p>Conta digital com cartão de crédito sem anuidade e sem complicação</p>
-                            <span></span>
                         </div>
                     </div>
                     <div class="app-info2">         
@@ -74,7 +77,6 @@
                         <div class="app-text-info2">
                             <h3>Sem taxas</h3>
                             <p>Transferências, boletos de depósito e outros serviços gratuitos</p>
-                            <span></span>
                         </div>
                     </div>
                     <div class="app-info3">
@@ -82,7 +84,6 @@
                         <div class="app-text-info3">
                             <h3>Mais investimentos</h3>
                             <p>Rendem mais que a poupança e você resgata quando quiser</p>
-                            <span></span>
                         </div>
                     </div>
                     <div class="app-link">
