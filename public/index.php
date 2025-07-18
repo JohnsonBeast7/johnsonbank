@@ -97,9 +97,11 @@
                 <img class="dots" src="imgs/app-dots.svg">
                 <img class="logo-frame" src="imgs/logo-frame.svg">
                 <h2>Baixe nosso app</h2>
-                <p>Que tal abrir uma conta digital para ver como a gente faz a sua vida muito mais simples?</p>
-                <a href="#"><img class="download-buttons" src="imgs/ios-button.png"></a>
-                <a href="#"><img class="download-buttons" src="imgs/android-button.png"></a>
+                <p>Que tal abrir uma conta digital para ver como a gente faz a sua vida muito mais simples?</p>   
+                <div class="app-secondary-downloads">        
+                    <a href="#"><img class="download-buttons" src="imgs/ios-button.png"></a>
+                    <a href="#"><img class="download-buttons" src="imgs/android-button.png"></a>
+                </div>  
             </div>
             <div class="app-secondary-right">
                 <div class="app-purple-block">
