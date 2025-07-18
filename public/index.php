@@ -24,7 +24,7 @@
                 <a class="btn-menu" href="#"><span>Abra sua conta digital</span></a>
             </div>
         </div>
-        <div class="main-content">
+        <div class="container">
             <div class="main-left">
                 <h1 class="main-top-title"> Abra sua conta, é só baixar o app!</h1>
                 <h1 class="main-title">Desperte seu potencial financeiro com o Johnson<span>bank</span>!</h1>
