@@ -104,6 +104,41 @@ if (movableImage) {
 }
 </script>
 
+<script>
+  function toggleMenu() {
+    const menuLinks = document.querySelector('.menu-links');
+    const menuBtn = document.querySelector('.menu-btn');
+    
+    menuLinks.classList.toggle('active');
+    menuBtn.classList.toggle('active');
+  }
+</script>
+
+<script>
+  function toggleMenu(el) {
+    document.querySelector('.menu-links').classList.toggle('active');
+    document.querySelector('.menu-btn').classList.toggle('active');
+    el.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
+  }
+</script>
+
+
+<script>
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 1136) {
+      document.body.classList.remove('menu-open');
+
+      // Fecha também o menu visualmente (remove classe ativa do botão, etc.)
+      const menuLinks = document.querySelector('.menu-links');
+      const hamburger = document.querySelector('.hamburger');
+      if (menuLinks) menuLinks.classList.remove('active');
+      if (hamburger) hamburger.classList.remove('active');
+    }
+  });
+</script>
+
+
 <!-- <footer>
     <div class="container">
         <div class="footer-wraper" style="display: flex; justify-content: space-between; align-items: center; padding-top: 40px;">
