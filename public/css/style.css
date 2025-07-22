@@ -1386,6 +1386,15 @@ footer .footer-bottom p {
         flex-direction: column;
         align-items: center;
       }
+
+      footer .container .footer-top {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer .footer-bottom p {
+        font-size: 12px;
+      }
 }
 
 @media screen and (max-width: 756px) and (min-width: 594px) {
