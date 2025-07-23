@@ -169,7 +169,11 @@ body.menu-open .blur-wrapper {
     transition: filter 0.3s ease;
     pointer-events: none;
     user-select: none;
-  }
+}
+
+body.menu-open {
+    overflow: hidden;
+}
 
 .main-section .container {
     display: grid;

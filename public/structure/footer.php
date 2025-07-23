@@ -6,12 +6,10 @@
                 <h3>Johnson<span>bank</span></h3>
             </div>
             <div class="footer-links">
-                <p>Acompanhe nas redes</p> 
-                <a href="asd"><img style="width: 100%; max-width:22px; min-width: 22px" class="ytb-icon" src="imgs/footer-yt.svg"></a>
-                <a href="https://www.linkedin.com/in/joaoferraresi/" target="_blank"><img style="width: 100%; max-width:15px; min-width: 15px" src="imgs/footer-lk.svg"></a>           
-                <a href="https://github.com/JohnsonBeast7"><img style="width: 100%; max-width: 19px; min-width: 19px" src="imgs/footer-gh.svg"></a>            
-                <a href="https://www.instagram.com/joaop.ferraresi/" target="_blank"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-ig.svg"></a>              
-                <a href="pages/fallback.html"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-x.svg"></a>          
+                <p>Acompanhe nas redes</p>      
+                <a href="https://github.com/JohnsonBeast7" target="_blank"><img style="width: 100%; max-width: 19px; min-width: 19px" src="imgs/footer-gh.svg"></a> 
+                <a href="https://www.linkedin.com/in/joaoferraresi/" target="_blank"><img style="width: 100%; max-width:15px; min-width: 15px" src="imgs/footer-lk.svg"></a>              
+                <a href="https://www.instagram.com/joaop.ferraresi/" target="_blank"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-ig.svg"></a>                    
             </div>
         </div>
         <div class="footer-main">

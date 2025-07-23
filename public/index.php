@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class="app-link">
-                            <a href="pages/fallback.html">Conheça outros produtos </a>
+                            <a href="https://github.com/JohnsonBeast7" target="_blank">Conheça outros produtos</a>
                             <span></span>
                         </div>
                     </div>
@@ -169,17 +169,17 @@
                 <div class="x-posts">
                     <div class="x-post-1">
                             <div class="x-post-top">
-                                <h3>@marcio</h3>
+                                <h3>@lani</h3>
                                 <img src="imgs/x-icon.svg">
                             </div>
                             <p>Valeu @johnsonbank! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #johnsonBank</p>
                     </div>
                     <div class="x-post-2">
                             <div class="x-post-top">
-                                <h3>@westzs</h3>
+                                <h3>@joao</h3>
                                 <img src="imgs/x-icon.svg">
                             </div>
-                            <p>Eu uso o Johnson pra render o pouquinho que eu tenho. Como disse meu amigo Pastel, um dia eu abro o app de novo e PA: tô rica.</p>
+                            <p>Eu uso o Johnson pra render o pouquinho que eu tenho. Como disse meu amigo Pastel, um dia eu abro o app de novo e PA: tô rico.</p>
                     </div>
                     <div class="x-post-3">
                             <div class="x-post-top">

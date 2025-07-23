@@ -56,6 +56,8 @@
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
 
     .container p, .container span {
@@ -77,6 +79,14 @@
 
     .container h1 {
         font-size: 124px;
+    }
+    
+}
+
+@media screen and (max-width: 505px) {
+
+    .container p {
+        max-width: 250px;
     }
     
 }
