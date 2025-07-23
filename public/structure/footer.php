@@ -9,9 +9,9 @@
                 <p>Acompanhe nas redes</p> 
                 <a href="asd"><img style="width: 100%; max-width:22px; min-width: 22px" class="ytb-icon" src="imgs/footer-yt.svg"></a>
                 <a href="https://www.linkedin.com/in/joaoferraresi/" target="_blank"><img style="width: 100%; max-width:15px; min-width: 15px" src="imgs/footer-lk.svg"></a>           
-                <a href="#"><img style="width: 100%; max-width: 10px; min-width: 10px" src="imgs/footer-fb.svg"></a>            
+                <a href="https://github.com/JohnsonBeast7"><img style="width: 100%; max-width: 19px; min-width: 19px" src="imgs/footer-gh.svg"></a>            
                 <a href="https://www.instagram.com/joaop.ferraresi/" target="_blank"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-ig.svg"></a>              
-                <a href="#"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-x.svg"></a>          
+                <a href="pages/fallback.html"><img style="width: 100%; max-width:16px; min-width:16px" src="imgs/footer-x.svg"></a>          
             </div>
         </div>
         <div class="footer-main">
@@ -105,37 +105,26 @@ if (movableImage) {
 </script>
 
 <script>
-  function toggleMenu() {
-    const menuLinks = document.querySelector('.menu-links');
-    const menuBtn = document.querySelector('.menu-btn');
-    
-    menuLinks.classList.toggle('active');
-    menuBtn.classList.toggle('active');
-  }
-</script>
-
-<script>
   function toggleMenu(el) {
-    document.querySelector('.menu-links').classList.toggle('active');
-    document.querySelector('.menu-btn').classList.toggle('active');
+    document.querySelector('.mobile-menu').classList.toggle('active');
     el.classList.toggle('active');
     document.body.classList.toggle('menu-open');
   }
 </script>
 
-
 <script>
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 1136) {
-      document.body.classList.remove('menu-open');
+  if (window.innerWidth > 1136) {
+    document.body.classList.remove('menu-open');
 
-      // Fecha também o menu visualmente (remove classe ativa do botão, etc.)
-      const menuLinks = document.querySelector('.menu-links');
-      const hamburger = document.querySelector('.hamburger');
-      if (menuLinks) menuLinks.classList.remove('active');
-      if (hamburger) hamburger.classList.remove('active');
-    }
-  });
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    if (mobileMenu) mobileMenu.classList.remove('active');
+    if (hamburger) hamburger.classList.remove('active');
+  }
+});
+
 </script>
 
 

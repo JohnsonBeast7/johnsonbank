@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h1 {
+    font-family: "Poppins";
+    background-image: linear-gradient(to bottom right, #003D77, #0b9d5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 156px;
+   
+    
+}
+
+.container p, .container span {
+    font-family: "Poppins";
+    color: #393B42;
+    margin-top: 0px;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.container a {
+    color: #80440D;
+  height: 100%;
+  max-height: 50px;
+  background-color: #E9C300;
+  border-radius: 50px;
+  padding: 14px 30px 14px 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .container p, .container span {
+        font-size: 48px;
+    }
+
+    .container h1 {
+        font-size: 140px;
+    }
+    
+}
+
+@media screen and (max-width: 756px) {
+
+    .container p, .container span {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 124px;
+    }
+    
+}

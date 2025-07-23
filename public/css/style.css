@@ -7,6 +7,10 @@
     padding: 0 16px;
 }
 
+.mobile-menu {
+    display: none;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -125,7 +129,7 @@ html {
 }
 
 .header .menu-btn {
-    margin-top: 43px;
+    padding-top: 43px;
 }
 
 .hamburger {
@@ -263,6 +267,18 @@ body.menu-open .blur-wrapper {
 .container .main-left .main-info img{
     width: 100%;
     max-width: 48px;
+}
+
+.info1-img.mobile {
+    display: none;
+}
+
+.info2-img.mobile {
+    display: none;
+}
+
+.info3-img.mobile {
+    display: none;
 }
 
 .container .main-left .main-info .info1 {
@@ -1062,20 +1078,34 @@ footer .footer-bottom p {
 
 @media screen and (max-width: 1163px) {
 
-    .menu-links, .menu-btn {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-image: linear-gradient(to right, #003D77, #066F6A);
-    padding: 20px 0;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    z-index: 10;
-  }
+    .desktop-only {
+        display: none !important;
+    }
 
-    .menu-links.active,
-    .menu-btn.active {
+    .menu-links {
+        flex-direction: column;
+        
+    }
+
+    .header .menu-btn {
+        padding-top: 0px;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-image: linear-gradient(to right, #003D77, #066F6A);
+        padding: 40px 0;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 10;
+    }
+    
+    .mobile-menu.active {
         display: flex;
         align-items: center;
     }
@@ -1100,7 +1130,7 @@ footer .footer-bottom p {
     }
 
     .main-section .container .main-left .main-info {
-        gap: 50px;
+        gap: 25px;
     }
 
     .main-section .container .main-right {
@@ -1186,9 +1216,17 @@ footer .footer-bottom p {
         max-height: 49px;
     }
 
-    .app-right .app-info .app-info3 img {
-        max-width: 49px;
-        max-height: 49px;
+    .app-right .app-info .app-info3 img {.info1-img.mobile {
+        display: none;
+    }
+    
+    .info2-img.mobile {
+        display: none;
+    }
+    
+    .info3-img.mobile {
+        display: none;
+    }
     }
 
     .app-section .app-primary-content.container {
@@ -1326,12 +1364,37 @@ footer .footer-bottom p {
 
 @media screen and (max-width: 756px) {
     .container .main-left .main-title {
-        font-size: 28px;
+        font-size: 38px;
         line-height: normal;
+        max-width: 500px;
     }
 
     .container .main-left .main-top-title {
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .info1-img.mobile {
+        display: block;
+    }
+    
+    .info2-img.mobile {
+        display: block;
+    }
+    
+    .info3-img.mobile {
+        display: block;
+    }
+
+    .info1-img {
+        display: none;
+    }
+    
+    .info2-img {
+        display: none;
+    }
+    
+    .info3-img {
+        display: none;
     }
 
     .main-section .main-right img {
@@ -1341,6 +1404,7 @@ footer .footer-bottom p {
     .app-right h1 {
         max-width: 597px;
         text-align: center;
+        font-size: 34px;
     }
 
     .app-section .app-secondary-content.container {
@@ -1383,6 +1447,22 @@ footer .footer-bottom p {
         justify-items: center;
       }
 
+      .x-section .x-title .x-title-left h1 {
+        font-size: 34px;
+      }
+
+      .x-section .x-title .x-title-left .x-title-emoji h1 {
+        font-size: 34px;
+      }
+
+      .digital-section .container .digital-left-title h1 {
+        font-size: 34px;
+      }
+      
+      .digital-section .container .digital-left-title h2 {
+        font-size: 34px;
+      }
+
       footer .container .footer-main .footer-main-infos {
         flex-direction: column;
         align-items: center;
@@ -1407,7 +1487,13 @@ footer .footer-bottom p {
 @media screen and (max-width: 650px) {
 
     .container .main-left .main-title {
+        font-size: 28px;
+        line-height: normal;
         max-width: 330px;
+    }
+
+    .container .main-left .main-top-title {
+        font-size: 20px;
     }
 
     .container .main-left .main-info {

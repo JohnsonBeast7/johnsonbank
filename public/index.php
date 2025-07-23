@@ -20,16 +20,28 @@
                     <span></span>
                     <span></span>
                     <span></span>
-            </div>  
-                <div class="menu-links">
-                    <a class="menu" href="#">Produtos Johnson</a>
-                    <a class="menu" href="#">Conta digital PJ</a>
-                    <a class="menu" href="#">Quem somos</a>
-                    <a class="menu" href="#">Blog</a>
-                    <a class="menu" href="#">Ajuda</a>
+                </div>  
+                <div class="mobile-menu">
+                    <div class="menu-btn">
+                        <a class="btn-menu" href="pages/fallback.html"><span>Abra sua conta digital</span></a>
+                    </div>
+                    <div class="menu-links">
+                        <a class="menu" href="pages/fallback.html">Produtos Johnson</a>
+                        <a class="menu" href="pages/fallback.html">Conta digital PJ</a>
+                        <a class="menu" href="pages/fallback.html">Quem somos</a>
+                        <a class="menu" href="pages/fallback.html">Blog</a>
+                        <a class="menu" href="pages/fallback.html">Ajuda</a>
+                    </div>
                 </div>
-                <div class="menu-btn">
-                    <a class="btn-menu" href="#"><span>Abra sua conta digital</span></a>
+                <div class="menu-links desktop-only">
+                    <a class="menu" href="pages/fallback.html">Produtos Johnson</a>
+                    <a class="menu" href="pages/fallback.html">Conta digital PJ</a>
+                    <a class="menu" href="pages/fallback.html">Quem somos</a>
+                    <a class="menu" href="pages/fallback.html">Blog</a>
+                    <a class="menu" href="pages/fallback.html">Ajuda</a>
+                </div>
+                <div class="menu-btn desktop-only">
+                    <a class="btn-menu" href="pages/fallback.html"><span>Abra sua conta digital</span></a>
                 </div>
             </div>
         </div>
@@ -39,19 +51,22 @@
                     <h1 class="main-top-title"> Abra sua conta, é só baixar o app!</h1>
                     <h1 class="main-title">Desperte seu potencial financeiro com o Johnson<span>bank</span>!</h1>
                     <div class="main-btn">
-                        <a class="btn-main" href="#">Abra sua conta digital</a>
+                        <a class="btn-main" href="pages/fallback.html">Abra sua conta digital</a>
                     </div>
                     <div class="main-info">
                         <div class="info1"> 
                             <img class="info1-img" src="imgs/info1.svg">
+                            <img class="info1-img mobile" src="imgs/info1-mobile.svg">
                             <p>Cartão sem anuidade</p>
                         </div>
                         <div class="info2">
                             <img class="info2-img" src="imgs/info2.svg">
+                            <img class="info2-img mobile" src="imgs/info2-mobile.svg">
                             <p>Conta digital 100% grátis</p>
                         </div>
                         <div class="info3">
                             <img class="info3-img" src="imgs/info3.svg">
+                            <img class="info3-img mobile" src="imgs/info3-mobile.svg">
                             <p>Seu dinheiro rendendo mais</p>                   
                         </div>
                     </div>
@@ -94,7 +109,7 @@
                             </div>
                         </div>
                         <div class="app-link">
-                            <a href="#">Conheça outros produtos </a>
+                            <a href="pages/fallback.html">Conheça outros produtos </a>
                             <span></span>
                         </div>
                     </div>
@@ -107,8 +122,8 @@
                     <h2>Baixe nosso app</h2>
                     <p>Que tal abrir uma conta digital para ver como a gente faz a sua vida muito mais simples?</p>   
                     <div class="app-secondary-downloads">        
-                        <a href="#"><img class="download-buttons" src="imgs/ios-button.png"></a>
-                        <a href="#"><img class="download-buttons" src="imgs/android-button.png"></a>
+                        <a href="pages/fallback.html"><img class="download-buttons" src="imgs/ios-button.png"></a>
+                        <a href="pages/fallback.html"><img class="download-buttons" src="imgs/android-button.png"></a>
                     </div>  
                 </div>
                 <div class="app-secondary-right">
@@ -119,10 +134,10 @@
                             <p>As melhores contas para fazer pagamentos, compras e receber dos seus clientes.
                             <div class="purple-block-btns">
                                 <div class="btn-1">
-                                    <a href="#">Sou MEI</a>
+                                    <a href="pages/fallback.html">Sou MEI</a>
                                 </div>
                                 <div class="btn-2">
-                                    <a href="#">Sou ME</a>
+                                    <a href="pages/fallback.html">Sou ME</a>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +221,7 @@
                             </div>
                     </div>
                     <div class="digital-btn">
-                        <a href="#">Abra sua conta digital</a>
+                        <a href="pages/fallback.html">Abra sua conta digital</a>
                     </div>
                 </div>
                 <div class="digital-right">
