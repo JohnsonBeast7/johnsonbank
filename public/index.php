@@ -7,7 +7,11 @@
     <title>Johnson Bank</title>
     <link rel="shortcut icon" href="favicon/favicon.ico"/>
     <link rel="stylesheet" href="css/style.css">
-    <meta property="og:image" content="https://johnsonbank.vercel.app/imgs/meta-icon.jpg"/>
+    <meta property="og:title" content="Johnson Bank">
+    <meta property="og:description" content="Seu banco do futuro">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://johnsonbank.vercel.app">
+    <meta property="og:image" content="https://johnsonbank.vercel.app/imgs/meta.png">
 </head>
 <body>
     <section class="main-section">
