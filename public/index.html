@@ -7,6 +7,7 @@
     <title>Johnson Bank</title>
     <link rel="shortcut icon" href="favicon/favicon.ico"/>
     <link rel="stylesheet" href="css/style.css">
+    <meta property="og:image" content="https://johnsonbank.vercel.app/imgs/meta-icon.jpg"/>
 </head>
 <body>
     <section class="main-section">
